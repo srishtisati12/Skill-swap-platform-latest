@@ -1,0 +1,69 @@
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  padding: 28px 18px;
+  background: #22223b;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.sidebar-title {
+  color: #c9ada7;
+  font-size: 28px;
+  margin: 0 0 35px;
+  text-align: center;
+}
+
+.sidebar-menu-title {
+  color: #9a9ab0;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding-left: 12px;
+  margin-bottom: 18px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar-nav a {
+  display: block;
+  padding: 13px 15px;
+  color: #e5e5ee;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.sidebar-nav a:hover {
+  background: #393957;
+  color: #ffffff;
+}
+
+.sidebar-nav a.active {
+  background: #c9ada7;
+  color: #22223b;
+  font-weight: bold;
+}
+
+.sidebar-logout {
+  margin-top: 35px;
+  padding: 13px 15px;
+  border: 1px solid #c96b78;
+  border-radius: 8px;
+  background: transparent;
+  color: #ffb4bd;
+  text-align: left;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.sidebar-logout:hover {
+  background: #c96b78;
+  color: white;
+}
